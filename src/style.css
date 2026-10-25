@@ -8,7 +8,9 @@
   --epoxy-text: #615f58;
   --epoxy-border: #d5c7ad;
 }
-
+.logo{
+  width: 220px;
+}
 /* Háttérszínek */
 .epoxy-bg {
   background-color: var(--epoxy-bg);
@@ -40,6 +42,11 @@ p, li, span, a, .nav-link {
 /* Teli zöld gomb */
 .epoxy-btn-primary {
   background-color: var(--epoxy-green);
+  color: var(--epoxy-bg);
+}
+
+.epoxy-btn-primary:hover {
+  background-color: var(--epoxy-gold);
   color: var(--epoxy-bg);
 }
 
@@ -76,6 +83,16 @@ p, li, span, a, .nav-link {
   border: 2px solid var(--epoxy-border);
 }
 
+.icon{
+  color: var(--epoxy-gold);
+  font-size: 1.6rem;
+}
+
+.card{
+  border: none;
+  background-color: var(--epoxy-bg);
+}
+
 .icon-divider{
   position: relative;
 }
@@ -93,24 +110,6 @@ p, li, span, a, .nav-link {
   }
 }
 
-.footer-divider {
-  position: relative;
-}
-
-/* Csak akkor jelenjen meg, amikor az oszlopok egymás mellett vannak. */
-@media (min-width: 768px) {
-  .footer-divider::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-
-    width: 1px;
-    height: 40%;
-    background-color: var(--epoxy-border);
-  }
-}
 .socket{
   border-top: 1px solid var(--epoxy-border);
 }

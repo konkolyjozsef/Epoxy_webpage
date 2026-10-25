@@ -24,38 +24,54 @@
     <div class="container">
       <div class="row g-4 text-center">
         <div class="col-12 col-md-4">
-          <i class="fa-solid fa-palette"></i>
+          <i class="fa-solid fa-palette icon"></i>
           <h3>Egyedi tervezés</h3>
           <p>Nincs két egyforma termék.</p>
         </div>
 
         <div class="col-12 col-md-4 icon-divider">
-          <i class="fa-solid fa-hand-holding-dollar"></i>
+          <i class="fa-solid fa-hand-holding-dollar icon"></i>
           <h3>Megfizethető árak</h3>
           <p>Szenvedéllyel, odafigyeléssel.</p>
         </div>
 
         <div class="col-12 col-md-4 icon-divider">
-          <i class="fa-solid fa-truck"></i>
+          <i class="fa-solid fa-truck icon"></i>
           <h3>Gyors szállítás</h3>
           <p>Gondosan csomagolva.</p>
         </div>
       </div>
     </div>
   </section>
+
+
   <section class="inspiration text-center py-5">
-    <h2 class="mb-4">Pár termék Inspiráció</h2>
+    <h2 class="mb-4">Néhány Termék csoport</h2>
     <hr class="hr_insp mb-5" />
+
     <div class="container">
-      <div class="card" style="width: 18rem;">
-        <img src="../img/elsokep.png" class="card-img-top img-fluid" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Virág mintás epoxy</h5>
-          <a href="#" class="mt-4 epoxy-link">Hasonlót szeretnék &rarr;</a>
-        </div>
+      <div class="row gap-2">
+          <div class="card col-sm-12 col-md-4 col-lg-4" style="width: 18rem;">
+            <img src="../img/elsokep.png" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pohár alátétek</h5>
+                <a href="#" class="mt-4 epoxy-link">Hasonlót szeretnék &rarr;</a>
+              </div>
+          </div>
+
+          <div class="card col-sm-12 col-md-4 col-lg-4" style="width: 18rem;">
+            <img src="../img/alatet.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pohár alátétek</h5>
+              <a href="#" class="mt-4 epoxy-link">Hasonlót szeretnék &rarr;</a>
+            </div>
+          </div>
+
       </div>
     </div>
   </section>
+
+
   <section class="bottom">
     <div class="container">
       <div class="row">

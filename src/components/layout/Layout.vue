@@ -7,7 +7,7 @@ import Welcome from '../pages/Welcome.vue'
     <nav class="navbar navbar-expand-lg py-3 " >
       <div class="container">
         <a class="navbar-brand fw-bold" href="/">
-          EPOXY LOGO
+          <img src="../img/logo.png" alt="Epoxy logo" class="logo img-fluid" />
         </a>
 
         <!-- Hamburgergomb mobilra -->
@@ -62,11 +62,11 @@ import Welcome from '../pages/Welcome.vue'
             Kézzel készült epoxy tárgyak.
           </p>
         </div>
-        <div class="col-12 col-md-4 col-lg-4 py-5 footer-divider">
+        <div class="col-12 col-md-4 col-lg-4 py-5">
           <h2>Fedezd fel</h2>
           az oldalakat
         </div>
-        <div class="col-12 col-md-4 col-lg-4 py-5 footer-divider">
+        <div class="col-12 col-md-4 col-lg-4 py-5">
           <h2>Kapcsolat</h2>
           <span>
             <i class="fa-solid fa-envelope"></i> info@epoxy.hu
