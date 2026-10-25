@@ -1,0 +1,116 @@
+:root {
+  --epoxy-bg: #faf8f2;
+  --epoxy-heading: #101e15;
+  --epoxy-green: #203f2a;
+  --epoxy-green-hover: #31553b;
+  --epoxy-sage: #d5d8c4;
+  --epoxy-gold: #a78342;
+  --epoxy-text: #615f58;
+  --epoxy-border: #d5c7ad;
+}
+
+/* Háttérszínek */
+.epoxy-bg {
+  background-color: var(--epoxy-bg);
+}
+
+/* Szövegszínek */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--epoxy-heading);
+}
+
+p, li, span, a, .nav-link {
+  color: var(--epoxy-text);
+}
+
+.nav-link:hover {
+  color: var(--epoxy-green-hover);
+}
+
+.icons{
+  background-color: var(--epoxy-sage);
+}
+
+
+.epoxy-btn:focus-visible {
+  outline: 3px solid var(--epoxy-gold);
+  outline-offset: 4px;
+}
+
+/* Teli zöld gomb */
+.epoxy-btn-primary {
+  background-color: var(--epoxy-green);
+  color: var(--epoxy-bg);
+}
+
+/* Aláhúzott zöld link */
+.epoxy-link {
+  color: var(--epoxy-green);
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+.epoxy-link:hover {
+  color: var(--epoxy-green-hover);
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.hero{
+  background-image: url('./components/img/herobg.png');
+  background-size: cover;
+  background-position: center;
+}
+.hr_insp{
+  width: 20%;
+  margin: 0 auto;
+}
+.bottom{
+  background-image: url('./components/img/bottombg.png');
+  background-size: cover;
+  background-position: center;
+}
+.order{
+  border: 2px solid var(--epoxy-border);
+}
+
+.icon-divider{
+  position: relative;
+}
+@media (min-width: 768px) {
+  .icon-divider::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 1px;
+    height: 40%;
+    background-color: var(--epoxy-heading);
+  }
+}
+
+.footer-divider {
+  position: relative;
+}
+
+/* Csak akkor jelenjen meg, amikor az oszlopok egymás mellett vannak. */
+@media (min-width: 768px) {
+  .footer-divider::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 1px;
+    height: 40%;
+    background-color: var(--epoxy-border);
+  }
+}
+.socket{
+  border-top: 1px solid var(--epoxy-border);
+}
